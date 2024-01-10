@@ -39,6 +39,6 @@
   padding-bottom: 8px;
 }
 
-.wrapper input:focus {
+.wrapper textarea:focus {
   box-shadow: 2px 4px 10px #8c8f8c;
 }
