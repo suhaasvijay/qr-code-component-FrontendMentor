@@ -22,3 +22,21 @@
     background-position: 0% 50%;
   }
 }
+
+.wrapper {
+  max-width: 100%;
+  position: relative;
+}
+
+.wrapper .button1 {
+  position: absolute;
+  right: 143px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+}
+
+.wrapper input:focus {
+  box-shadow: 2px 4px 10px #8c8f8c;
+}
