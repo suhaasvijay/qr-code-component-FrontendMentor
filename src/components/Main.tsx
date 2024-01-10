@@ -41,7 +41,7 @@ export default function Main() {
           Generate your QR code in a few clicks
         </h1>
         <div className='flex gap-5 mt-16 px-5 items-center wrapper'>
-          <input type="text" placeholder='Please enter text' value={input} onChange={handleInputChange} className='text-black !outline-none text-base w-[150%] font-semibold border-2 border-grey-300 p-2 rounded-md' />
+          <textarea placeholder='Please enter text' value={input} onChange={handleInputChange} className='text-black !outline-none text-base w-[150%] font-semibold border-2 border-grey-300 p-2 rounded-md' />
           {input && <button onClick={handleOnClickClear} className='bg-gray-500 button1 flex items-center justify-center text-white h-[50%] text-sm rounded-full'>X</button>}
 
           <button className='bg-green-500 text-white py-2 px-4 rounded-md' onClick={generateQR}>Generate</button>

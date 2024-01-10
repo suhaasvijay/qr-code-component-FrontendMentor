@@ -31,6 +31,8 @@
 .wrapper .button1 {
   position: absolute;
   right: 143px;
+  top: 10px;
+  height: 25px;
   padding-left: 7px;
   padding-right: 7px;
   padding-top: 7px;
